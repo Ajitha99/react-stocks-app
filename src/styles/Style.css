@@ -46,12 +46,15 @@ input{
     color:rgba(255, 255, 255, 0.966);
     background-color: rgb(48, 47, 47);
 }
-span{
-    width: 80px;
-    height:20px;
+button{
+    width: 70px;
+    height:30px;
     border: 1px solid rgb(48, 47, 47);
-    border-radius: .2em;
+    border-radius: .3em;
     padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color:white
 }
 h5{
     color: gray;

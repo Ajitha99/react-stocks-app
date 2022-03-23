@@ -4,7 +4,7 @@
 
 <img src = "images\stock-app-img1.jpg"/>
 
-<img src = "images\stock-app-img2.jpg"/>
+
 
 
 # Getting Started with Create React App

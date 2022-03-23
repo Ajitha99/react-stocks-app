@@ -10,8 +10,8 @@ function Stock({symbol,companyName,latestPrice,change}){
             </div>
             <div className="stock-div2">
                 <h3>{latestPrice}</h3>
-                <h3><span className= {change > 0 ? 'background-green': 'background-red'} >{change}</span></h3>
-                
+                {/* <h3><span className= {change > 0 ? 'background-green': 'background-red'} >{change}</span></h3> */}
+                <h3><button className= {change > 0 ? 'background-green': 'background-red'} >{change}%</button></h3>
             </div>  
         </div>
     )
