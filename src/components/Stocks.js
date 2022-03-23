@@ -19,7 +19,7 @@ function Stocks(){
                 }))
                 
                 setStockData(response);
-                console.log(stockData);
+                //console.log(stockData);
                 
             } catch (error) {
                 console.log(error);
