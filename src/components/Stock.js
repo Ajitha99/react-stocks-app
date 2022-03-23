@@ -1,8 +1,6 @@
 import { useState } from "react";
 
 function Stock({symbol,companyName,latestPrice,change}){
-    // const [background, setBackground] = useState("#0bdd15");
-    const changeVal = {change};
 
     return(
         <div className="stock-div">
@@ -12,7 +10,8 @@ function Stock({symbol,companyName,latestPrice,change}){
             </div>
             <div className="stock-div2">
                 <h3>{latestPrice}</h3>
-                <h3><span className= {(changeVal > 0)? 'background-green': 'background-red'} >{change}</span></h3>
+                <h3><span className= {change > 0 ? 'background-green': 'background-red'} >{change}</span></h3>
+                
             </div>  
         </div>
     )
@@ -20,7 +19,5 @@ function Stock({symbol,companyName,latestPrice,change}){
 
 export default Stock;
 
+{/* <h3><span className= {((Math.sign(changeVal) === 1) && (Math.sign(changeVal) === 0)) ? 'background-green': 'background-red'} >{change}</span></h3> */}
 
-
-
-{/* { ({change} > 0)? background : setBackground('#b82f1c')} */}
