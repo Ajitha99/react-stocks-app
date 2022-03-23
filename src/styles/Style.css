@@ -1,0 +1,64 @@
+.main-header{
+    border: 2px solid black;
+    width: 400px;
+    height: 635px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-top: 20px;
+}
+header{
+    color: white;
+    background-color: rgb(48, 47, 47);
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.stocks-main-div{
+    display: flex;
+    flex-direction: column;
+}
+.stock-div{
+    display: flex;
+    display: inline-table;
+    color: white;
+    border: 2px solid rgb(48, 47, 47);
+    margin:3px;
+}
+.stock-div1{
+    float: left;
+    text-align: left;
+    margin-left:10px;
+}
+.stock-div2{
+    text-align: right;
+    margin-right:10px;
+    
+}
+input{
+    margin-top: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    width: 380px;
+    height: 50px;
+    border-radius: .3em;
+    color:rgba(255, 255, 255, 0.966);
+    background-color: rgb(48, 47, 47);
+}
+span{
+    width: 90px;
+    height:20px;
+    border: 1px solid rgb(48, 47, 47);
+    border-radius: .2em;
+    padding: 5px;
+}
+h5{
+    color: gray;
+}
+.background-green{
+    background-color: rgb(35, 245, 45);
+}
+.background-red{
+    background-color: rgba(194, 53, 34, 0.938);
+}
