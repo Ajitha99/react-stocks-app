@@ -1,8 +1,16 @@
 
 
+### netlify link: https://radiant-boba-3630b9.netlify.app
+
 #Screen-Shots
 
 <img src = "images\stock-app-img1.jpg"/>
+
+
+
+
+
+
 
 
 
